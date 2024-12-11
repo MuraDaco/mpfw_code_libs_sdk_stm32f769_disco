@@ -1,0 +1,10 @@
+arm-none-eabi-gcc ../../../../src/v_00/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_adc_ex.c -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F769xx -c 
+-I/Users/work/ObsiData/repo__main/smdl/repo__prjs/smdl/mpfw/code/mpfw_code/libs/mpfw_code_libs_sdk_stm32f769_disco/wsp/cube/sdk_stm32f769_disco/../../../../../src/Core/Inc 
+-I/Users/work/ObsiData/repo__main/smdl/repo__prjs/smdl/mpfw/code/mpfw_code/libs/mpfw_code_libs_sdk_stm32f769_disco/wsp/cube/sdk_stm32f769_disco/../../../../../src/Drivers/STM32F7xx_HAL_Driver/Inc 
+-I/Users/work/ObsiData/repo__main/smdl/repo__prjs/smdl/mpfw/code/mpfw_code/libs/mpfw_code_libs_sdk_stm32f769_disco/wsp/cube/sdk_stm32f769_disco/../../../../../src/Middlewares/Third_Party/FreeRTOS/Source/include 
+-I/Users/work/ObsiData/repo__main/smdl/repo__prjs/smdl/mpfw/code/mpfw_code/libs/mpfw_code_libs_sdk_stm32f769_disco/wsp/cube/sdk_stm32f769_disco/../../../../../src/Drivers/STM32F7xx_HAL_Driver/Inc/Legacy 
+-I/Users/work/ObsiData/repo__main/smdl/repo__prjs/smdl/mpfw/code/mpfw_code/libs/mpfw_code_libs_sdk_stm32f769_disco/wsp/cube/sdk_stm32f769_disco/../../../../../src/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS 
+-I/Users/work/ObsiData/repo__main/smdl/repo__prjs/smdl/mpfw/code/mpfw_code/libs/mpfw_code_libs_sdk_stm32f769_disco/wsp/cube/sdk_stm32f769_disco/../../../../../src/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM7/r0p1 
+-I/Users/work/ObsiData/repo__main/smdl/repo__prjs/smdl/mpfw/code/mpfw_code/libs/mpfw_code_libs_sdk_stm32f769_disco/wsp/cube/sdk_stm32f769_disco/../../../../../src/Drivers/CMSIS/Device/ST/STM32F7xx/Include 
+-I/Users/work/ObsiData/repo__main/smdl/repo__prjs/smdl/mpfw/code/mpfw_code/libs/mpfw_code_libs_sdk_stm32f769_disco/wsp/cube/sdk_stm32f769_disco/../../../../../src/Drivers/CMSIS/Include 
+-O0 -ffunction-sections -fdata-sections -Wall -fstack-usage --specs=nano.specs -mfloat-abi=hard -mthumb -o v_00/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_adc_ex.o 
